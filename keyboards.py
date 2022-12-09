@@ -11,7 +11,7 @@ def recent_books_list(books_data):
 
 def book_keyboard(url, download):
     recent_book_markup = InlineKeyboardMarkup(row_width=1)
-    url_button = InlineKeyboardButton(text="🔗 Url", url=url)
+    url_button = InlineKeyboardButton(text="↗️Url", url=url)
     download_button = InlineKeyboardButton(text="📥 Download", url=download)
 
     recent_book_markup.add(url_button, download_button)
